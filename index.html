@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CCXP</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo.svg" alt="" width="150">
+    </header>
+    <div id="container">
+        <div id="info">
+            <h1 class="amarelo">REVIVA O ÉPICO</h1>
+            <h2> DE 01 A 04 DE DEZEMBRO</h2>
+            <p>Você consegue sentir? É aquela sensação de <br>
+                finalmente poder falar em voz alta: "estamos<br>
+                 em casa". Sim, em dezembro de 2022,<br>
+                 teremos a volta da CCXP física. Mas não será <br>
+                 qualquer CCXP, vai ser a maior de todos os <br>
+                 tempos. Prepare-se para visitar seus <br>
+                 universos favoritos, explorar o Artists' Valley, <br>
+                 se emocionar nos auditórios e encontrar <br>
+                 aventuras épicas a cada passo pelos nossos <br>
+                 corredores.</p>
+        </div>
+        <div id="infovideo">
+            <div id="temporizador">
+                <h1 id="dia"></h1>
+                <h1 id="hora"></h1>
+                <h1 id="minuto"></h1>
+                <h1 id="segundo"></h1>
+            </div>
+            <h2>PARA A MAIOR CCXP DE TODOS OS TEMPOS</h2>
+            <video controls loop width="800" autoplay>
+                <source src="Arlequina.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div id="titulo_ingressos">
+        <h2 class="amarelo">AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h2>
+    </div>
+    <div id="cards">
+        <img src="img/quinta.svg" onclick="cardSelected('#quinta')" onmouseover="highLight('#quinta')" onmouseout="highLight('#quinta')"  id="quinta" alt="">
+        <img src="img/sexta.svg" onclick="cardSelected('#sexta')" onmouseover="highLight('#sexta')" onmouseout="highLight('#sexta')" id="sexta" alt="">
+        <img src="img/sabado.svg" onclick="cardSelected('#sabado')" onmouseover="highLight('#sabado')" onmouseout="highLight('#sabado')" id="sabado" alt="">
+        <img src="img/domingo.svg" onclick="cardSelected('#domingo')" onmouseover="highLight('#domingo')" onmouseout="highLight('#domingo')" id="domingo" lt="">
+        <button onclick="showCardSelected()">GARANTA O SEU!</button>
+    </div>
+    <script src="index.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
