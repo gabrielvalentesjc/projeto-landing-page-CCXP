@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual do Usuário - Sistema de Operações Numéricas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        header {
+            background-color: #4a76a8;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        h2 {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        .section {
+            margin-bottom: 30px;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .function {
+            background-color: #e8f4fc;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 4px solid #4a76a8;
+            border-radius: 3px;
+        }
+        .example {
+            background-color: #f0f7e6;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 4px solid #7cb342;
+            border-radius: 3px;
+        }
+        code {
+            background-color: #f1f1f1;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: Consolas, monospace;
+        }
+        .note {
+            background-color: #fff8e1;
+            padding: 10px;
+            border-left: 4px solid #ffc107;
+            margin: 15px 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #777;
+            font-size: 0.9em;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sistema de Operações Numéricas</h1>
+        <p>Manual do Usuário</p>
+    </header>
+
+    <div class="section">
+        <h2>Sobre o Programa</h2>
+        <p>O Sistema de Operações Numéricas é um programa desenvolvido para realizar cálculos com diferentes sequências matemáticas. Este software permite ao usuário explorar várias sequências numéricas importantes na matemática, como Fibonacci, Tribonacci, Quadrados Perfeitos, Cubos, Fatorial e Números Primos.</p>
+    </div>
+
+    <div class="section">
+        <h2>Instruções de Uso</h2>
+        <p>Para utilizar o Sistema de Operações Numéricas, siga os passos abaixo:</p>
+        <ol>
+            <li>Execute o programa</li>
+            <li>No menu principal, você verá uma lista numerada de operações disponíveis</li>
+            <li>Digite o número correspondente à operação desejada (1-9) ou 0 para sair</li>
+            <li>Siga as instruções específicas para cada operação</li>
+            <li>Após concluir uma operação, o programa perguntará se deseja continuar</li>
+            <li>Para continuar, pressione qualquer tecla; para sair, digite 0</li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>Opções Disponíveis</h2>
+        <p>O programa oferece as seguintes opções de cálculo:</p>
+
+        <div class="function">
+            <h3>1 - Sequência de Fibonacci</h3>
+            <p>Calcula e exibe os números da sequência de Fibonacci até um limite especificado pelo usuário.</p>
+            <p>A sequência de Fibonacci começa com 0 e 1, e cada número subsequente é a soma dos dois números anteriores: 0, 1, 1, 2, 3, 5, 8, 13, 21, ...</p>
+            <p><strong>Limitação:</strong> O programa aceita um limite máximo de 92 para esta sequência.</p>
+        </div>
+
+        <div class="function">
+            <h3>2 - Sequência de Tribonacci</h3>
+            <p>Calcula e exibe os números da sequência de Tribonacci até um limite especificado pelo usuário.</p>
+            <p>Similar à sequência de Fibonacci, mas cada número é a soma dos três números anteriores. A sequência começa com 0, 0, 1, e continua: 0, 0, 1, 1, 2, 4, 7, 13, 24, ...</p>
+        </div>
+
+        <div class="function">
+            <h3>3 - Quadrados Perfeitos</h3>
+            <p>Calcula e exibe uma sequência de quadrados perfeitos (números que são o quadrado de um número inteiro).</p>
+            <p>Exemplos de quadrados perfeitos: 1, 4, 9, 16, 25, 36, 49, ...</p>
+        </div>
+
+        <div class="function">
+            <h3>4 - Cubos</h3>
+            <p>Calcula e exibe uma sequência de números cúbicos (números que são o cubo de um número inteiro).</p>
+            <p>Exemplos de números cúbicos: 1, 8, 27, 64, 125, 216, ...</p>
+        </div>
+
+        <div class="function">
+            <h3>5 - Sequência Geométrica</h3>
+            <p>Esta funcionalidade está marcada como "Em breve" e ainda não está implementada no programa.</p>
+        </div>
+
+        <div class="function">
+            <h3>6 - Sequência Alternada</h3>
+            <p>Esta funcionalidade está marcada como "Em breve" e ainda não está implementada no programa.</p>
+        </div>
+
+        <div class="function">
+            <h3>7 - Sequência Triangular</h3>
+            <p>Esta funcionalidade está marcada como "Em breve" e ainda não está implementada no programa.</p>
+        </div>
+
+        <div class="function">
+            <h3>8 - Fatorial</h3>
+            <p>Calcula o fatorial de um número inteiro fornecido pelo usuário.</p>
+            <p>O fatorial de um número n (representado por n!) é o produto de todos os inteiros positivos menores ou iguais a n.</p>
+            <p><strong>Limitação:</strong> O programa aceita um valor máximo de 17 para o cálculo de fatorial.</p>
+        </div>
+
+        <div class="function">
+            <h3>9 - Números Primos</h3>
+            <p>Oferece duas opções relacionadas a números primos:</p>
+            <ul>
+                <li>Ver um número primo específico por posição (ex: qual é o 10º número primo?)</li>
+                <li>Ver uma sequência de números primos até uma posição específica</li>
+            </ul>
+            <p>Um número primo é um número natural maior que 1 que não pode ser formado pela multiplicação de dois números naturais menores.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Exemplos de Uso</h2>
+
+        <div class="example">
+            <h3>Exemplo 1: Calculando a Sequência de Fibonacci</h3>
+            <ol>
+                <li>No menu principal, digite <code>1</code> para selecionar a opção Fibonacci</li>
+                <li>Digite um limite (ex: <code>20</code>)</li>
+                <li>O programa exibirá todos os números da sequência de Fibonacci até o limite especificado</li>
+                <li>Após visualizar o resultado, você pode escolher continuar ou sair do programa</li>
+            </ol>
+        </div>
+
+        <div class="example">
+            <h3>Exemplo 2: Calculando o Fatorial de um Número</h3>
+            <ol>
+                <li>No menu principal, digite <code>8</code> para selecionar a opção Fatorial</li>
+                <li>Digite um valor inteiro (ex: <code>5</code>)</li>
+                <li>O programa calculará e exibirá o fatorial de 5 (5! = 120)</li>
+                <li>Após visualizar o resultado, você pode escolher continuar ou sair do programa</li>
+            </ol>
+            <p class="note">Nota: Se você digitar um valor maior que 17, o programa solicitará que você digite um valor menor, pois valores maiores podem causar problemas de precisão ou estouro de memória.</p>
+        </div>
+
+        <div class="example">
+            <h3>Exemplo 3: Encontrando Números Primos</h3>
+            <ol>
+                <li>No menu principal, digite <code>9</code> para selecionar a opção Números Primos</li>
+                <li>Escolha a opção desejada:
+                    <ul>
+                        <li>Digite <code>1</code> para ver um número primo por posição</li>
+                        <li>Digite <code>2</code> para ver uma sequência de números primos</li>
+                    </ul>
+                </li>
+                <li>Digite a posição desejada (ex: <code>10</code>)</li>
+                <li>Se você escolheu a opção 1, o programa mostrará o 10º número primo (que é 29)</li>
+                <li>Se você escolheu a opção 2, o programa mostrará todos os números primos até a 10ª posição (2, 3, 5, 7, 11, 13, 17, 19, 23, 29)</li>
+                <li>Após visualizar o resultado, você pode escolher continuar ou sair do programa</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Notas Importantes</h2>
+        <ul>
+            <li>Algumas funcionalidades estão marcadas como "Em breve" e não estão disponíveis na versão atual do programa.</li>
+            <li>O programa possui limitações específicas para algumas operações:
+                <ul>
+                    <li>Fibonacci: limite máximo de 92</li>
+                    <li>Fatorial: valor máximo de 17</li>
+                </ul>
+            </li>
+            <li>Para sair do programa a qualquer momento, digite <code>0</code> no menu principal.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>Sistema de Operações Numéricas - Manual do Usuário</p>
+        <p>© 2025 - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
